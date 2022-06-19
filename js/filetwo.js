@@ -20,3 +20,6 @@ console.log(25 || null); // 25
 console.log(5 === 5 && 3 > 1 && 5); // && умножает, || булит 
 
 console.log(NaN || undefined); // !! при && - NaN, при || - undefined
+
+console.log((2 && 3) || 5); // 3
+console.log((2 || 3) && 5); // 5
